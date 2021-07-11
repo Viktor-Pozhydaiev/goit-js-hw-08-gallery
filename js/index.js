@@ -56,9 +56,6 @@ function closeModal() {
   modalImg.src = '';
   modalImg.alt = '';
   window.removeEventListener('keydown', onListenerButton);
-  if (e.target !== modalOverlay) {
-    return;
-  }
 }
 
 function onListenerButton(e) {
