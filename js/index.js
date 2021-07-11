@@ -56,6 +56,8 @@ function closeModal() {
   modalImg.src = '';
   modalImg.alt = '';
   window.removeEventListener('keydown', onListenerButton);
+
+  
 }
 
 function onListenerButton(e) {
